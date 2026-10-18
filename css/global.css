@@ -1,0 +1,49 @@
+
+:root {
+    --cor-fundo:        #F5F5DC;   /* Papiro/Osso */
+    --cor-texto:        #4B3621;   /* Castanho terra escuro */
+    --cor-acao:         #556B2F;   /* Verde Oliva — botões, links */
+    --cor-acao-hover:   #6B8E23;   /* Variante mais clara para hover */
+
+    /* Acentos da página actual — sobrescritos por cada CSS de página */
+    --acento-1:         var(--cor-acao);
+    --acento-2:         var(--cor-texto);
+    --acento-3:         var(--cor-fundo);
+
+    /* Tipografia */
+    --fonte-titulos:    'Cinzel', 'Georgia', serif;       
+    --fonte-texto:      'Inter', 'Segoe UI', sans-serif;  
+
+    /* Espaçamentos consistentes */
+    --espaco-xs: 0.5rem;
+    --espaco-sm: 1rem;
+    --espaco-md: 2rem;
+    --espaco-lg: 4rem;
+
+    /* Outras tokens */
+    --cor-creme:  #FFFDD0;   /* Creme/Ivory — fundo de cards */
+    --raio-borda: 8px;
+    --sombra-card: 0 4px 12px rgba(75, 54, 33, 0.15);
+    --border-soft:  rgba(75, 54, 33, 0.15);
+    --largura-max: 1200px;
+}
+
+/* Reset mínimo */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--fonte-titulos);
+    color: var(--cor-texto);
+}
+
+a { color: var(--cor-acao); text-decoration: none; }
+a:hover { color: var(--cor-acao-hover); }

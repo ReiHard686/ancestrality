@@ -1,0 +1,119 @@
+/* layout.css — componentes e utilitários de tema */
+
+:root {
+  --bs-focus-ring-color: rgba(255, 100, 50, 0.25); /* cor com transparência */
+}
+
+.form-control:focus {
+  border-color: #fdc06f; /* borda */
+  box-shadow: 0 0 0 0.25rem var(--bs-focus-ring-color); /* glow */
+}
+.form-select:focus {
+  border-color: #fdc06f; /* borda */
+  box-shadow: 0 0 0 0.25rem var(--bs-focus-ring-color); /* glow */
+}
+
+.btn-primario {
+    background-color: var(--cor-acao);
+    color: var(--cor-fundo);
+    padding: var(--espaco-sm) var(--espaco-md);
+    border-radius: var(--raio-borda);
+    border: none;
+}
+
+/* Card com paleta ancestral */
+.card-ancestral {
+    background-color: var(--cor-creme);
+    border: 1px solid var(--cor-acao) !important;
+    color: var(--cor-texto);
+}
+
+.card-header-ancestral {
+    background-color: var(--cor-acao);
+    color: var(--cor-fundo);
+}
+
+.card-tema {
+    background: #fff;
+    border-left: 4px solid var(--acento-1);
+    box-shadow: var(--sombra-card);
+    padding: var(--espaco-md);
+}
+
+/* Secção com fundo papiro */
+.section-ancestral {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* Wrapper e imagens em card row */
+.card-img-wrapper {
+    min-height: 180px;
+    overflow: hidden;
+}
+
+.card-img-fill {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-img-fill-right {
+    border-radius: 0 calc(.375rem - 1px) calc(.375rem - 1px) 0;
+}
+
+.card-img-fill-left {
+    border-radius: calc(.375rem - 1px) 0 0 calc(.375rem - 1px);
+}
+
+/* Input group dentro de card ancestral */
+.card-ancestral .input-group-text {
+    background-color: var(--cor-creme);
+    border-color: var(--border-soft);
+    color: var(--cor-texto);
+}
+
+/* Footer */
+.footer-ancestral {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    border-top: 2px solid var(--cor-acao);
+}
+
+/* Navbar Ancestral */
+.navbar-ancestral {
+  background-color: var(--cor-fundo);
+  border-bottom: 2px solid var(--cor-acao);
+  --bs-navbar-color:                    var(--cor-texto);
+  --bs-navbar-hover-color:              var(--cor-acao);
+  --bs-navbar-active-color:             var(--cor-acao);
+  --bs-navbar-brand-color:              var(--cor-texto);
+  --bs-navbar-brand-hover-color:        var(--cor-acao);
+  --bs-navbar-toggler-border-color:     var(--cor-acao);
+  --bs-nav-underline-link-active-color: var(--cor-acao);
+}
+
+.navbar-ancestral .navbar-brand { letter-spacing: .5px; }
+
+.navbar-ancestral .navbar-toggler { color: var(--cor-acao); }
+
+.navbar-ancestral .navbar-toggler:focus {
+  box-shadow: 0 0 0 .2rem rgba(85, 107, 47, .25);
+}
+
+.navbar-ancestral .nav-link.disabled {
+  cursor: not-allowed;
+  opacity: .55;
+}
+
+.btn-sessao {
+  background-color: var(--cor-acao);
+  color: var(--cor-fundo);
+  border: 1px solid var(--cor-acao);
+}
+
+.navbar-ancestral .btn-sessao:hover {
+  background-color: var(--cor-texto);
+  border-color: var(--cor-texto);
+  color: var(--cor-fundo);
+}

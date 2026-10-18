@@ -1,0 +1,55 @@
+[data-bs-theme="mal-sec-xxi"] {
+  /* Cores base da paleta */
+  --bs-body-bg:               #1F1B17;  /* Carvão queimado */
+  --bs-body-color:            #D8D2C2;  /* Bege esvaído */
+  --bs-emphasis-color:        #EDE7D7;  /* Bege mais claro para títulos */
+  --bs-emphasis-color-rgb:    237, 231, 215;
+  --bs-body-color-rgb:        216, 210, 194;
+  --bs-body-bg-rgb:           31, 27, 23;
+
+  /* Superfícies secundárias (cards, navs, etc.) */
+  --bs-secondary-bg:          #2A2520;
+  --bs-secondary-bg-rgb:      42, 37, 32;
+  --bs-tertiary-bg:           #332D27;
+  --bs-tertiary-bg-rgb:       51, 45, 39;
+  --bs-secondary-color:       rgba(216, 210, 194, 0.75);
+  --bs-tertiary-color:        rgba(216, 210, 194, 0.5);
+
+  /* Bordas */
+  --bs-border-color:          #3D362F;
+  --bs-border-color-translucent: rgba(216, 210, 194, 0.15);
+
+  /* Primary — Azul Aço Frio (substitui o ciano néon) */
+  --bs-primary:               #5B7A8F;
+  --bs-primary-rgb:           91, 122, 143;
+  --bs-primary-bg-subtle:     #283239;
+  --bs-primary-border-subtle: #3E5566;
+  --bs-primary-text-emphasis: #8FA8BB;
+
+  /* Warning — Âmbar Tóxico para alertas/destaques */
+  --bs-warning:               #B8863A;
+  --bs-warning-rgb:           184, 134, 58;
+  --bs-warning-bg-subtle:     #3B2E14;
+  --bs-warning-border-subtle: #6B4F23;
+  --bs-warning-text-emphasis: #D4A45A;
+
+  /* Links */
+  --bs-link-color:            #8FA8BB;
+  --bs-link-color-rgb:        143, 168, 187;
+  --bs-link-hover-color:      #B8863A;
+  --bs-link-hover-color-rgb:  184, 134, 58;
+
+  /* Headings herdam emphasis-color automaticamente */
+  --bs-heading-color:         #EDE7D7;
+
+  /* Code/destaques */
+  --bs-code-color:            #B8863A;
+}
+
+/* nav-link active/hover usa âmbar — não disponível via classe BS */
+#scrollspy-nav .nav-link.active,
+#scrollspy-nav .nav-link:hover {
+    color: var(--bs-warning-text-emphasis) !important;
+    background-color: var(--bs-warning-bg-subtle) !important;
+}
+

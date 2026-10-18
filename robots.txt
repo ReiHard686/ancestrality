@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Páginas privadas/funcionais — não indexar
+Disallow: /tools/
+Disallow: /pagina-login.php
+Disallow: /nutrimind-ai.php
+Disallow: /treinamento-funcional.php
+
+Sitemap: https://recuperacao.free.nf/sitemap.xml

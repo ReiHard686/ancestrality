@@ -1,0 +1,24 @@
+.card-grupo-ancestral .card {
+    background-color: var(--cor-creme);
+    border: 1px solid rgba(75, 54, 33, 0.15) !important;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra-card);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-grupo-ancestral .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(75, 54, 33, 0.25);
+}
+.card-grupo-ancestral .card-title {
+    font-family: var(--fonte-titulos);
+    font-size: 1rem;
+}
+.card-grupo-ancestral .card-icon {
+    font-size: 2.25rem;
+}
+.card-grupo-ancestral .card:nth-child(1) { border-top: 4px solid var(--acento-1) !important; }
+.card-grupo-ancestral .card:nth-child(1) .card-icon { color: var(--acento-1); }
+.card-grupo-ancestral .card:nth-child(2) { border-top: 4px solid var(--acento-2) !important; }
+.card-grupo-ancestral .card:nth-child(2) .card-icon { color: var(--acento-2); }
+.card-grupo-ancestral .card:nth-child(3) { border-top: 4px solid var(--acento-3) !important; }
+.card-grupo-ancestral .card:nth-child(3) .card-icon { color: var(--acento-3); }

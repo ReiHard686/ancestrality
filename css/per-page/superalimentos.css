@@ -1,0 +1,11 @@
+:root {
+    --acento-1: #9B111E;   /* Vermelho Carne */
+    --acento-2: #568203;   /* Verde Abacate */
+    --acento-3: #FFD700;   /* Dourado Mel */
+}
+
+.card-grupo-ancestral { gap: 1rem; }
+.card-grupo-ancestral .card-icon {
+    display: block;
+    margin-bottom: 0.75rem;
+}
