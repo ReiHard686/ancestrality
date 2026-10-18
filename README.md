@@ -34,7 +34,7 @@ Website em PHP sobre saúde funcional e hábitos inspirados em práticas ancestr
 
 5. Abra [http://localhost:8000](http://localhost:8000).
 
-O site público pode ser explorado sem conta. O NutriMind requer sessão iniciada. A estrutura atual não inclui um ficheiro de migração SQL; a tabela de utilizadores tem de ser criada na base de dados antes de ativar registo e autenticação.
+O site público pode ser explorado sem conta através do link [https://recuperacao.free.nf](https://recuperacao.free.nf). O NutriMind requer sessão iniciada. A estrutura atual não inclui um ficheiro de migração SQL; a tabela de utilizadores tem de ser criada na base de dados antes de ativar registo e autenticação.
 
 ## Estrutura
 
